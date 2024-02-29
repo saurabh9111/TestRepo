@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: notification-service
+  description: A notification service built with Spring Boot and Java,providing functionality for sending notifications to users.
+  owner: batman
+  lifecycle: experimental
+  tags:
+    - notification
+    - service
+    - java
+    - spring-boot
+spec:
+  type: service
+  lifecycle: experimental
+  owner: saurabh9111
